@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 
-// Тип данных (как на бэке)
 interface Item {
   id: number;
   name: string;
@@ -12,8 +11,6 @@ function App() {
   const [items, setItems] = useState<Item[]>([]);
   const [loading, setLoading] = useState(true);
 
-  // URL бэкенда (по умолчанию localhost:3000, в Кубере заменим через ENV)
-  // Важно: VITE_API_URL должен быть определен при сборке
   const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
 
   useEffect(() => {
