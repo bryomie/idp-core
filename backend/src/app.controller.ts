@@ -1,14 +1,12 @@
 import { Controller, Get } from '@nestjs/common';
+import { AppService } from './app.service';
 
 @Controller()
 export class AppController {
+  constructor(private readonly appService: AppService) {}
+
   @Get()
   getHello(): string {
-    return 'IDP Backend API v1.0 (Stealth Mode)';
-  }
-
-  @Get('health')
-  getHealth(): { status: string } {
-    return { status: 'ok' };
+    return this.appService.getHello();
   }
 }
