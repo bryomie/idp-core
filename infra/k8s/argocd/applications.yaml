@@ -1,0 +1,40 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: idp-backend
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/sergei-v-filippov/idp-core.git # ТВОЙ РЕПО
+    targetRevision: main
+    path: infra/k8s/charts/backend
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: idp-frontend
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/sergei-v-filippov/idp-core.git
+    targetRevision: main
+    path: infra/k8s/charts/frontend
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
