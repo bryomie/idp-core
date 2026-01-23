@@ -1,0 +1,15 @@
+# Backend Configuration
+
+image:
+  repository: sergeivf/idp-core-backend
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 3000
+
+# Environment variables for the application
+env:
+  DATABASE_URL: "postgres://user:pass@localhost:5432/db" # Placeholder

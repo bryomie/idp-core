@@ -1,0 +1,16 @@
+# Frontend Configuration
+
+image:
+  repository: sergeivf/idp-core-frontend
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 80
+
+ingress:
+  enabled: true
+  className: "nginx"
+  host: "idp.filippov.world" # Replace with your domain

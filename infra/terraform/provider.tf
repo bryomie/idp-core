@@ -6,8 +6,11 @@ terraform {
       version = "~> 5.0"
     }
   }
-  # Backend config will be added here
-  # backend "gcs" {}
+
+  backend "gcs" {
+    bucket  = "tf-state-idp-core-svf"
+    prefix  = "terraform/state"
+  }
 }
 
 provider "google" {
