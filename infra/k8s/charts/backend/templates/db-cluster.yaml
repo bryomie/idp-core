@@ -3,7 +3,7 @@ kind: Cluster
 metadata:
   name: {{ .Release.Name }}-db
 spec:
-  instances: 1 # Экономим ресурсы (в проде 2 или 3)
+  instances: 1 
   
   # Используем ephemeral для скорости и чтобы не забивать квоты дисков
   # (В проде тут PVC)
