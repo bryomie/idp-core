@@ -36,4 +36,4 @@ jobs:
         with:
           context: ./frontend
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/idp-core-frontend:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/idp-core-frontend:v1-fix
