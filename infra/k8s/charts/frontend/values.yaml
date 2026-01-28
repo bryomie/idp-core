@@ -2,7 +2,7 @@
 
 image:
   repository: sergeivf/idp-core-frontend
-  tag: v3-mime
+  tag: v4-fix
   pullPolicy: Always
 
 service:
