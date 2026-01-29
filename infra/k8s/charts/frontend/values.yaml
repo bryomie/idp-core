@@ -14,3 +14,5 @@ ingress:
   enabled: true
   className: "nginx"
   host: "idp.filippov.world" # Replace with your domain 
+
+backendServiceName: idp-backend-backend
