@@ -26,7 +26,7 @@ function App() {
   return (
     <div style={{ padding: '20px' }}>
       <h1>IDP Resource Manager 🚀</h1>
-      {loading ? <p>Loading...</p> : (
+      {loading ? <p>Loading... </p> : (
         <table border={1} cellPadding={10} style={{ width: '100%', textAlign: 'left' }}>
           <thead>
             <tr>
