@@ -10,6 +10,8 @@ service:
   port: 80
   targetPort: 3000
 
+databaseSecretName: idp-backend-db-app
+
 # Environment variables for the application
 # env:
 #   DATABASE_URL: "postgres://user:pass@localhost:5432/db" # Placeholder
