@@ -126,6 +126,15 @@ terraform plan
 
 ---
 
+## ⚠️ Architecture Notes (Demo vs Production)
+
+To ensure this repository remains portable and cost-effective for demonstration purposes, certain enterprise components were abstracted:
+
+*   **Secrets Management:** Uses native Kubernetes Secrets for simplicity. In the live production environment, we utilized **Google Secret Manager** via External Secrets Operator.
+*   **Database:** Uses an in-cluster PostgreSQL instance. Production utilized a highly available **Cloud SQL** instance with Private Service Connect.
+
+---
+
 ## 👨‍💻 Author
 
 **Sergei Filippov**  
